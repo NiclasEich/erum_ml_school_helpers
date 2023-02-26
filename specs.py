@@ -11,7 +11,7 @@ import os
 # extract environment variables with hardcoded defaults
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_dir = os.path.join(base_dir, "data")
-cernbox_data_url = "https://cernbox.cern.ch/index.php/s/6CK0CwO5W6HSgZB"
+cernbox_data_url = "https://cernbox.cern.ch/index.php/s/UVRfeuYchmNYubt"
 
 # composite variables
 cernbox_dl_pattern = cernbox_data_url.rstrip("/") + "/download?path={}&files={}"
